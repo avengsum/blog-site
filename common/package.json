@@ -1,5 +1,5 @@
 {
-  "name": "@blog/common-app",
+  "name": "@amsrisru/common-app",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^3.22.4"
+  }
 }
