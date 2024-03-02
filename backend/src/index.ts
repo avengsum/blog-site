@@ -10,6 +10,9 @@ export const app = new Hono<{
 }>();
 
 app.route('/api/v1/user', user)
-app.route('/api/v1/book', blog)
+app.route('/api/v1/blog', blog)
 
 export default app
+
+
+// it run on surver 8787
