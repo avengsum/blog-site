@@ -73,7 +73,7 @@ blog.get('/blog/bulk', async (c) => {
 		datasourceUrl: c.env?.DATABASE_URL	,
 	}).$extends(withAccelerate());
 	
-	const posts = await prisma.post.find({});
+	const posts = await prisma.post.findMany({});
 
 	return c.json(posts);
 
