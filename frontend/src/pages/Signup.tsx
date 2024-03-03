@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Signup() {
   return (
     <div className="min-h-screen bg-white py-12 px-4 sm:px-6 flex items-center lg:px-8">
@@ -7,9 +9,9 @@ export default function Signup() {
             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">Create an account</h2>
             <p className="mt-2 text-sm text-gray-600">
               Already have an account?
-              <a className="font-medium text-indigo-600 hover:text-indigo-500" href="#">
+              <Link className="font-medium text-indigo-600 hover:text-indigo-500 pl-2" to={'/signin'}>
                 Login
-              </a>
+              </Link>
             </p>
             <form action="#" className="mt-8 space-y-6" method="POST">
               <div>
