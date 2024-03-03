@@ -8,12 +8,14 @@
     "@amsrisru/common-app": "^1.0.0",
     "@prisma/client": "^5.10.2",
     "@prisma/extension-accelerate": "^1.0.0",
+    "bcrypt": "^5.1.1",
     "dotenv": "^16.4.5",
     "hono": "^4.0.8",
     "prisma": "^5.10.2"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240208.0",
+    "@types/bcrypt": "^5.0.2",
     "wrangler": "^3.25.0"
   }
 }
